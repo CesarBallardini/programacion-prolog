@@ -12,7 +12,7 @@ aprecia(juan, raspberri_pi).
 aprecia(juan, programacion).
 % aprecia(juan, yogurt). % si se descomenta, ambos tests fallan
 
-:- begin_tests(ejemplos).
+:- begin_tests(ejemplos1).
 
 
 /* testing for failure */
@@ -23,4 +23,4 @@ test(juan2, all(X == [futbol,raspberri_pi,programacion])) :-
    aprecia(juan,X).
 
 
-:- end_tests(ejemplos).
+:- end_tests(ejemplos1).

@@ -11,15 +11,15 @@ swipl -s tests/test_ejemplos2.plt -g run_tests,halt -t 'halt(1)'
 :- set_prolog_flag(verbose, verbose).
 
 
-:- begin_tests(ejemplos).
+:- begin_tests(ejemplos2).
 
 
 /* testing for failure */
-test(juan1, [fail]) :- aprecia(juan,yogurt).
+test(juan1, [fail]) :- ama(juan,yogurt).
 
 /* check for all answers from a nondeterministic predicate */
 test(juan2, all(X == [futbol,raspberri_pi,programacion])) :-
-   aprecia(juan,X).
+   ama(juan,X).
 
 
-:- end_tests(ejemplos).
+:- end_tests(ejemplos2).

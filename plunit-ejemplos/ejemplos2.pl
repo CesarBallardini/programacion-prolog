@@ -7,8 +7,8 @@ swipl -s tests/test_ejemplos2.plt -g run_tests,halt -t 'halt(1)'
  */
 
 
-aprecia(juan, futbol).
-aprecia(juan, raspberri_pi).
-aprecia(juan, programacion).
-% aprecia(juan, yogurt). % si se descomenta, ambos tests fallan
+ama(juan, futbol).
+ama(juan, raspberri_pi).
+ama(juan, programacion).
+% ama(juan, yogurt). % si se descomenta, ambos tests fallan
 

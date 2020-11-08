@@ -2,7 +2,7 @@
 
 Algunos tips para programar en PROLOG (SWI Prolog, GNU/Prolog, etc.)
 
-[![Build Status](https://travis-ci.org/CesarBallardini/programacion-prolog/simple-template.svg)](https://travis-ci.org/CesarBallardini/programacion-prolog)
+[![Build Status](https://travis-ci.org/CesarBallardini/programacion-prolog.svg)](https://travis-ci.org/CesarBallardini/programacion-prolog)
 
 
 # Testing en Github Travis
