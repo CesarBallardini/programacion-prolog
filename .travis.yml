@@ -1,3 +1,8 @@
+os:   linux           # required for arch different than amd64
+arch: arm64           # LXD container based build for OSS only
+virt: lxd             # required, routes to an LXD container
+dist: focal  
+
 before_script:
   - sudo apt-add-repository ppa:swi-prolog/devel -y
   - sudo apt-get update -q
