@@ -2,6 +2,8 @@ os:   linux           # required for arch different than amd64
 arch: arm64           # LXD container based build for OSS only
 virt: lxd             # required, routes to an LXD container
 dist: focal  
+language: minimal     # version control tools / essential build tools such as gcc and make / network tools such as curl / Docker / python
+
 
 before_script:
   - sudo apt-add-repository ppa:swi-prolog/devel -y
