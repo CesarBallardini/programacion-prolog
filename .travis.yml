@@ -1,8 +1,7 @@
 before_script:
   - sudo apt-add-repository ppa:swi-prolog/devel -y
   - sudo apt-get update -q
-  - sudo apt-get install swi-prolog-nox
+  - sudo apt-get install -y swi-prolog-nox
 
 script: 
-  - cd plunit-ejemplos/
-  - make test
+  - pushd plunit-ejemplos/ ; make test ; popd
