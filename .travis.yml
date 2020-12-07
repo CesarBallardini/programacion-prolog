@@ -12,5 +12,5 @@ before_script:
 
 script: 
   - swipl --version
-  - pushd plunit-ejemplos/ ; swipl -s tests/tests.pl -g run_tests,halt -t 'halt(1)' ; popd
+  - pushd plunit-ejemplos/ ; make ; popd
  
