@@ -1,16 +1,15 @@
 /*
  * ejecutar tests con
 
-swipl -v  -f none -g "load_files('tests/test_ejemplos1.plt')" -t run_tests -- $*
-swipl -s tests/test_ejemplos1.plt -g run_tests,halt -t 'halt(1)'
+swipl -v  -f none -g "load_files('tests/test_ejemplos1.pl')" -t run_tests -- $*
+swipl -s tests/test_ejemplos1.pl -g run_tests,halt -t 'halt(1)'
 
  */
 
+:- set_prolog_flag(verbose, silent).
+:- consult('ejemplos1.pl').
+:- set_prolog_flag(verbose, verbose).
 
-aprecia(juan, futbol).
-aprecia(juan, raspberri_pi).
-aprecia(juan, programacion).
-% aprecia(juan, yogurt). % si se descomenta, ambos tests fallan
 
 :- begin_tests(ejemplos1).
 
