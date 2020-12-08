@@ -41,3 +41,6 @@ Hasta que venza el plazo de entrega para los alumnos, `kungflu.pl` no tiene el c
 
 La UTN no me paga para emitir opiniones en su nombre. Todo lo escrito aquí es sólo una transformación de mis pensamientos hechos bytes.
 Bajo ningún concepto pretendo hacer representación de la UTN, la Facultad Regional Santa Fe o la asignatura Paradigmas de Programación.
+
+El enunciado del TP no es de mi autoría. La publicación aquí se hace a los fines de ayudar a los alumnos de la asignatura a disponer de
+material para practicar y entrenarse para los exámenes.
